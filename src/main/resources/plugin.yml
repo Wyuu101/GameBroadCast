@@ -1,0 +1,13 @@
+name: GameBroadCast
+version: '${project.version}'
+main: net.dxzzz.gamebroadcast.GameBroadCast
+depend: [PlaceholderAPI]
+
+commands:
+  yq:
+    description: "游戏广播快速拉人"
+    permission: GameBroadCast.Normal
+
+permissions:
+  GameBroadCast.Normal:
+    default: true
